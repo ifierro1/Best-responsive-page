@@ -1,0 +1,80 @@
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	display: flex;
+}
+
+.blue {background-color:#2C91E1;}
+
+.black {
+	background-color:#000000;
+	height:50%;
+	width:100%
+	}
+.Gold {
+	background-color: #D4AF37;
+	height:50%;
+	width:100%
+	}
+
+
+
+.center-horizontal {
+	align-items: center;	
+}
+
+
+.center-vertical {
+	justify-content: center;
+}
+
+
+.contain-image {
+	max-height: 75%;
+	max-width: 75%;
+}
+.aligner{
+	display: flex;
+	align-items:center;
+	justify-content: center;
+}
+
+.wide-col {
+	height: 100%;
+	width: 75%;
+	background-color: #0D11A8
+}
+
+.narrow-col{
+	height: 100%;
+	width: 25%;
+	display:block;
+}
+/* when it is on a celluar device it will change formats*/
+
+@media only screen and (max-width: 800px){ 
+	body {
+	width: 100%;
+	height: 100%;
+	display: block;
+	}
+	
+	.wide-col {
+	height:75%;
+	width:100%;
+	background-color: blue;
+	display: flex;
+}
+	.narrow-col{
+	height: 50%;
+	width: 100%;
+	display:block;
+	}
+}
+	
+	
+	
+
+
